@@ -67,7 +67,7 @@ function App() {
 
   useEffect(() => {
     setup();
-  }, []);
+  });
 
   return (
     <div className="App">
